@@ -1,0 +1,59 @@
+doctype html
+html
+head
+	title= title
+	link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+	link(rel='stylesheet', href='/stylesheets/materialize.min.css')
+	link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+	link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+	link(rel='stylesheet', href='/stylesheets/style.css')
+	script(src='/../javascripts/jquery-3.1.1.min.js')
+	script(src='/../javascripts/bootstrap.min.js')
+	script(src='/../javascripts/materialize.min.js')
+	script(src='/javascripts/jquery.zoom.min.js')
+	script(src='/../javascripts/javascript.js')
+
+body
+
+	include logo 
+
+	.container-fluid
+		.row
+			.col-md-2.col-sm-4.sidebar1
+				.brand Filtrar busca:
+				i.fa.fa-chevron-circle-down.fa-2x.toggle-btn(data-toggle='collapse', data-target='#menu-content')
+				.menu-list
+					ul#menu-content.menu-content.collapse.out
+						
+						li#filmes.collapsed.active(data-toggle='collapse', data-target='#filmes')
+							a(href='#')
+							i.fa.fa-film.fa-lg
+							strong  Filmes
+							span.arrow
+						ul.sub-menu.collapse
+								
+						li#series.collapsed(data-toggle='collapse', data-target='#seriados')
+							a(href='#')
+							i.fa.fa-video-camera.fa-lg
+							strong  Seriados
+						ul.sub-menu.collapse
+								
+						li#animes.collapsed(data-toggle='collapse', data-target='#desenhos')
+							a(href='#')
+							i.fa.fa-child.fa-lg
+							strong  Animes
+						ul.sub-menu.collapse
+								
+			.col-md-10
+				nav
+					.nav-wrapper
+						form
+							.input-field
+								input(type='search', id='txt-search', required)
+								label.label-icon(for='search')
+									i.material-icons search
+								i.material-icons close
+				div.brancojson
+					div.container
+						div.row
+							#quadros
