@@ -142,15 +142,19 @@ label {
 }
 .imagem h1 {
   font-family: 'Farsan', cursive;
-  font-size: 30px;
+  font-size: 23px;
   color: red;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .imagem p {
   font-family: 'Farsan', cursive;
-  font-size: 19px;
+  font-size: 21px;
   color: grey;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .imagem img {
   width: 100%;
@@ -548,5 +552,5 @@ a {
   padding: 40px;
 }
 #quadros h2 {
-  font-size: 20px;
+  font-size: 28px;
 }
