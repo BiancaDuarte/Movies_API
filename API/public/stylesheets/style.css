@@ -138,7 +138,7 @@ label {
 }
 .imagem:hover h1,
 .imagem:hover p {
-  color: black;
+  color: white;
 }
 .imagem:hover {
   /* Gradiente */
@@ -535,7 +535,7 @@ a {
   padding: 10px;
   border-style: outset black;
   border-radius: 10px;
-  z-index: 1024;
+  z-index: 10;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -568,4 +568,17 @@ a {
 #resultados-busca img {
   width: 300px;
   height: 350px;
+}
+.tituloModal {
+  text-align: center;
+  font-family: 'Farsan', cursive;
+}
+.tituloModal h2 {
+  padding-top: 20px;
+}
+.tamanho img {
+  width: 100%;
+}
+.col-md-7 {
+  text-align: justify;
 }
