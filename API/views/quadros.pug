@@ -21,24 +21,22 @@ body
 		.row
 			.col-md-2.col-sm-4.sidebar1
 				.brand Filtrar busca:
-				i.fa.fa-chevron-circle-down.fa-2x.toggle-btn(data-toggle='collapse', data-target='#menu-content')
 				.menu-list
-					ul#menu-content.menu-content.collapse.out
+					ul#menu-content
 						
-						li#filmes.collapsed.active(data-toggle='collapse', data-target='#filmes')
+						li#filmes
 							a(href='#')
 							i.fa.fa-film.fa-lg
 							strong  Movies
-							span.arrow
 						ul.sub-menu.collapse
 								
-						li#series.collapsed(data-toggle='collapse', data-target='#seriados')
+						li#series
 							a(href='#')
 							i.fa.fa-video-camera.fa-lg
 							strong  Shows
 						ul.sub-menu.collapse
 								
-						li#animes.collapsed(data-toggle='collapse', data-target='#desenhos')
+						li#animes
 							a(href='#')
 							i.fa.fa-child.fa-lg
 							strong  Animes
@@ -53,6 +51,8 @@ body
 								label.label-icon(for='search')
 									i.material-icons search
 								i.material-icons close
+						div#resultados-busca
+
 				div.brancojson
 					div.container
 						div.row

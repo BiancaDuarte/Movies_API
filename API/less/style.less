@@ -15,12 +15,7 @@ a {
   color: #00B7FF;
 }
 
-.brand {
-    text-align: center !important;
-    font-size: 28px;
-    font-family: @fonte;
-    line-height: 50px !important;
-  }
+
 
 .out{
   p{
@@ -40,20 +35,7 @@ a {
     text-align: center;
   }
 
-.sidebar1 {
-    background: #F17153;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#ef6c00 , #F58D63, #f1ab53);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#ef6c00 , #F58D63, #f1ab53);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#ef6c00 , #F58D63, #f1ab53);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ef6c00 , #F58D63, #f1ab53);
-    /* Standard syntax */
-    padding: 0px;
-    min-height: 100%;
-}
+
 
 .list{
     color: #fff;
@@ -77,13 +59,7 @@ a {
 text-align:center;
 }
 
-.laranja{
-	
-	width: 100%;
-	background-color: @laranjadrop;
-	height: 250px;
-	margin: 0 auto;
-}
+
  .veja h1{
    font-family: @fonte;
   color: @laranjadrop;
@@ -452,40 +428,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: red;
 }
 
-#resultados-busca{
 
-  background-color: #26A69A;
-  padding: 10px;
-  border-style: outset black;
-  border-radius: 10px;
-  z-index: 1024; 
-  position:relative; 
-  bottom: 0; 
-  width: 100%; 
-  max-height: 400px; 
-  overflow-y: auto;
-  box-shadow: 0px 10px 20px #444;
-
-  h3{
-     font-family: @fonte;
-    font-size: 19px;
-    color: red;
-    text-align: center;
-  }
-
-  h5{
-     font-family: @fonte;
-     cursor: pointer;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-  }
-
-  img{
-    width: 300px;
-    height: 100px;
-  }
-}
 
 header
 {
@@ -631,16 +574,21 @@ font-size: 20px;
   }
 }
 
+
+
 .logo {
   text-align: center;
+  img{
+    height:250px;
+  }
 }
 
 .container-fluid{
   padding: 0;
 }
 
-#text-search{
-  border-radius: 30px;
+#txt-search{
+  margin-bottom: 50px;
 }
 
 .col-md-10{
@@ -650,5 +598,84 @@ font-size: 20px;
 #quadros{
   h2{
     font-size: 28px;
+  }
+}
+
+.brand {
+    text-align: center !important;
+    font-size: 28px;
+    font-family: @fonte;
+    line-height: 50px !important;
+  }
+
+  #menu-content{
+    cursor: pointer;
+  }
+
+  .laranja{
+  width: 100%;
+  background-color: #203041;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.sidebar1 {
+    background: #F17153;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ef6c00 , #F58D63, #f1ab53);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ef6c00 , #F58D63, #f1ab53);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ef6c00 , #F58D63, #f1ab53);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ef6c00 , #F58D63, #f1ab53);
+    /* Standard syntax */
+    padding: 0px;
+    min-height: 100%;
+}
+
+#resultados-busca{
+
+  background-color: #26A69A;
+  padding: 10px;
+  border-style: outset black;
+  border-radius: 10px;
+  z-index: 1024; 
+  position:relative; 
+  bottom: 0; 
+  width: 100%; 
+  max-height: 400px; 
+  overflow-y: auto;
+  box-shadow: 0px 10px 20px #444;
+
+  h3{
+     font-family: @fonte;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+  }
+
+  h4{
+    font-family: @fonte;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+  }
+
+  p{
+    color: black;
+  }
+
+  h5{
+     font-family: @fonte;
+     cursor: pointer;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+  }
+
+  img{
+    width: 300px;
+    height: 350px;
   }
 }
